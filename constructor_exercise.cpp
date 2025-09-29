@@ -19,7 +19,7 @@ public:      //Access specifier
     mileage= a;
    }
    ~Car(){   //Destructor
-        cout<<"This is a destructor!"<<endl;
+        cout<<"Buy while stocks last!"<<endl;
     
    }	
 };
