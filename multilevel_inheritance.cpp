@@ -1,7 +1,7 @@
 /*
 Name: Collins Ng'ang'a Maina
 Reg Number: BCS-03-0001/2025
-Description: A program to demosntrate OOP concepts in a bank management system
+Description: A program to demonstrate OOP concepts in a bank management system
 */
 #include <iostream>
 using namespace std;
@@ -57,9 +57,11 @@ class SavingsAccount: public BankAccount{
 int main(){
 //Creating an object of SavingsAccount
 SavingsAccount mySavings("Collins Maina",12345,30000,2.5);
+	cout<<"Account holder's name: "<<mySavings.getName()<<endl;
+	cout<<"Account Number: "<<mySavings.getAccountNumber()<<endl;
+	cout<<"Account Balance: "<<mySavings.getBalance()<<" shillings"<<endl;
+	count<<"Interest Rate "<<mySavings.getInterestRate()<<"%"<<endl;
 return 0;
 }
-	/*AccountHolder acc;
-	acc.setName();
-	acc.getName;*/
+
 
